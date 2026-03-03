@@ -27,3 +27,10 @@ float phi = 3.14159;
  //dekralasi global 
  int p, l, luas;
 
+//implementasi prosedur dan fungsi
+void input (){
+   cout << "Masukkan panjang = ";
+   cin >> p;
+   cout << "Masukkan lebar = ";
+   cin >> l;
+}
