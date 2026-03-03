@@ -19,3 +19,5 @@ float phi = 3.14159;
     awal();
     akhir ();
  }
+
+ 
