@@ -39,10 +39,23 @@ int luaspersegi(){
    return p * l;
 }
 
-voi output (){
+void output (){
    cout << "Hasilnya = " << luaspersegi() << endl;
    cout << "Terima kasih";
 } int main () { // mulai
       input ();
       output();
    } //selesai
+
+
+//library
+#include <iostream>
+using namespace std;
+ 
+//implementasi prosedur dan fungsi  
+void input() {
+   cout << "Masukkan panjang = ";
+   cin >> p;
+   cout << "Masukkan lebar = ";
+   cin >> l;
+}
