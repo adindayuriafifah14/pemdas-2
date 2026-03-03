@@ -20,4 +20,10 @@ float phi = 3.14159;
     akhir ();
  }
 
- 
+ // library
+ #include <iostream>
+ using namespace std;
+
+ //dekralasi global 
+ int p, l, luas;
+
