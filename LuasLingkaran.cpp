@@ -63,6 +63,11 @@ void input() {
 float jumlah (float a, float b, float c){
    return a + b + c;
 }
- int luaspersegi (int a, int b){
+ int luaspersegip(int a, int b){
    return a * b;
+ }
+
+ void output(){
+      cout << "Hasilnya = " << luaspersegip(p,l) << endl;
+      cout << "terima kasih" << endl;
  }
