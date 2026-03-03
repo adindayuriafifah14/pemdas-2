@@ -39,3 +39,10 @@ int luaspersegi(){
    return p * l;
 }
 
+voi output (){
+   cout << "Hasilnya = " << luaspersegi() << endl;
+   cout << "Terima kasih";
+} int main () { // mulai
+      input ();
+      output();
+   } //selesai
